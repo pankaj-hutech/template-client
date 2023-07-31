@@ -1,0 +1,53 @@
+{
+  "LayoutData" : {
+    "type" : "input",
+    "inputType" : "select",
+    "gutter" : [20],
+    "defaultValue" : "SingleColumn",
+    "option" : [ 
+        {
+          "type" : "SingleColumn",
+          "value" : "SingleColumn",
+          "column" : 1
+        },
+        {
+          "type" : "TwoColumn",
+          "value" : "TwoColumn",
+          "column" : 2
+        },
+        {
+          "type" : "ThreeColumn",
+          "value" : "ThreeColumn",
+          "column" : 3
+        }
+      ]
+  },
+  "loginPage" : [
+      {
+        "type" : "single",
+        "column" : 1,
+        "heading" : "Nitkal",
+        "subHeading" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout" 
+      },
+      {
+        "type" : "twoColumn",
+        "column" : 2,
+        "heading" : "Nitkal",
+        "subHeading" : "Reader will be distracted by the readable content of a page when looking at its layout"
+      }
+    ],
+    "SignupPage" : [
+      {
+        "type" : "single",
+        "column" : 1,
+        "heading" : "Nitkal",
+        "subHeading" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout" 
+      },
+      {
+        "type" : "twoColumn",
+        "column" : 2,
+        "heading" : "Nitkal",
+        "subHeading" : "Reader will be distracted by the readable content of a page when looking at its layout"
+      }
+    ]
+}
